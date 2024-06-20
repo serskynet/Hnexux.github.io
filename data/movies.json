@@ -1,0 +1,21 @@
+[
+    {
+        "title": "Película 1",
+        "category": "action",
+        "type": "movie",
+        "players": [
+            { "source": "https://www.youtube.com/embed/dQw4w9WgXcQ", "label": "YouTube" },
+            { "source": "https://player.vimeo.com/video/76979871", "label": "Vimeo" }
+        ]
+    },
+    {
+        "title": "Película 2",
+        "category": "comedy",
+        "type": "movie",
+        "players": [
+            { "source": "https://www.youtube.com/embed/9bZkp7q19f0", "label": "YouTube" },
+            { "source": "https://player.vimeo.com/video/22439234", "label": "Vimeo" }
+        ]
+    }
+    
+]
