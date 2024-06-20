@@ -1,0 +1,122 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(0.25turn, #020024, #05033d, #0e0e98, #0e0e98);
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: linear-gradient(#4a637c, #2a425a);
+  padding: 1rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: #ecf0f1;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+main {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-filter {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.search-filter input,
+.search-filter select {
+  padding: 0.5rem;
+  margin: 0 0.5rem;
+  background: linear-gradient(0.25turn, #afacac, #bdbdc0, #d1cfcf, #e6e3e3);
+  border-radius: 5px;
+}
+
+.movie-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.movie {
+  background: linear-gradient(0.25turn, #343441, #1e1e22, #131316, #000000);
+  border-radius: 10px;
+  margin: 1rem;
+  padding: 1rem;
+  width: 300px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s, box-shadow 0.3s;
+  overflow: hidden;
+  text-align: center;
+}
+
+.movie:hover {
+  transform: scale(1.5);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.7);
+}
+
+.player-options {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.player-options button {
+  background: linear-gradient(#000000,#0e0e98);
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.7s;
+}
+
+.player-options button.active {
+  background: linear-gradient(#000000,#0e0e98);
+}
+
+.player-options button:hover {
+  background: linear-gradient(#ff1111,#000000);
+}
+
+.movie-player {
+  width: 100%;
+  border-radius: 100px;
+  margin-bottom: 0rem;
+}
+
+footer {
+  background-color: #34495e;
+  color: #000000;
+  text-align: center;
+  padding: -4rem;
+  position: fixed;
+  bottom: 0;
+  width: 4%;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hnxux en Línea</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Hnexux en Línea</h1>
+        <nav>
+            <ul>
+                <li><a href="#" id="peliculas-link">Películas</a></li>
+                <li><a href="#" id="series-link">Series</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="search-filter">
+            <input type="text" id="search" placeholder="Buscar...">
+            <select id="category-filter">
+                <option value="all">Todas las categorías</option>
+                <option value="action">Acción</option>
+                <option value="drama">Drama</option>
+                <option value="comedy">Comedia</option>
+            </select>
+        </div>
+        <div id="peliculas" class="movie-container">
+            <!-- Las películas se cargarán aquí dinámicamente -->
+        </div>
+        <div id="series" class="movie-container" style="display:none;">
+            <!-- Las series se cargarán aquí dinámicamente -->
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Hnexux</p>
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="data\movies.js"></script>
+</body>
+</html>
