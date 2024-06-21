@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
   const movies = [
       {
-          title: "Película 1",
+          title: "Pelicula 1",
           category: "action",
           type: "movie",
           players: [
@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
           ]
       },
       {
-          title: "Película 2",
+          title: "Pelicula 2",
           category: "comedy",
           type: "movie",
           players: [
